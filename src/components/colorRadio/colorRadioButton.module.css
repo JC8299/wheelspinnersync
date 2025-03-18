@@ -1,0 +1,42 @@
+.radioLabel {
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-tap-highlight-color: transparent;
+  cursor: pointer;
+}
+
+.radioInput {
+  margin: 0;
+  visibility: hidden;
+}
+
+.radioInput:checked + span:after {
+  border: 2px solid #1e293b;
+}
+
+.radioInput:not(:checked) + span:after {
+  border: 2px solid #e2e8f0;
+}
+
+.customRadio {
+  left: -6px;
+  top: 3px;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #334155;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.customRadio::after {
+  content: "";
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
