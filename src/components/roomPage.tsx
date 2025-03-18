@@ -350,7 +350,7 @@ export default function RoomPage({
   }
 
   return (
-    <div className="flex flex-col w-[750px] lg:w-[970px] xl:w-[1170px]">
+    <div className="flex flex-col w-[95%] md:w-[750px] lg:w-[970px] xl:w-[1170px]">
       <h1
         className="text-white text-4xl font-medium mt-5 mb-3 cursor-pointer select-none hover:underline"
         onClick={() => {
