@@ -4,6 +4,10 @@ Wheel Spinner Sync is a web application that allows users to edit a wheel of cho
 
 Live Demo here: [Wheel Spinner Sync]("https://github.com/jc8299/wheelspinnersync")
 
+<p align="center">
+  <img src="./public/images/wheelspin.gif" alt="Wheel Spinning">
+</p>
+
 The idea was inspired by [BingoSync](http://bingosync.com/) and was meant to be a fun project that I could use with my friends.
 
 This project uses:
@@ -21,6 +25,30 @@ This project uses:
 - Syncs spins and wheel rotation
 
 ## Usage/Examples
+
+Homepage where users will either join existing rooms or create their own room
+
+<p align="center">
+  <img src="./public/images/homepage.png" alt="Home Page">
+</p>
+
+Initial room when created
+
+<p align="center">
+  <img src="./public/images/room.png" alt="Room Page">
+</p>
+
+Modal when adding, editing, or deleting items
+
+<p align="center">
+  <img src="./public/images/additem.png" alt="Adding Items">
+</p>
+
+Room with added items
+
+<p align="center">
+  <img src="./public/images/roomwheel.png" alt="Room Wheel">
+</p>
 
 ## Environment Variables
 
