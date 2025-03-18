@@ -350,7 +350,7 @@ export default function RoomPage({
   }
 
   return (
-    <div className="flex flex-col md:w-[750px] lg:w-[970px] xl:w-[1170px]">
+    <div className="flex flex-col w-[750px] lg:w-[970px] xl:w-[1170px]">
       <h1
         className="text-white text-4xl font-medium mt-5 mb-3 cursor-pointer select-none hover:underline"
         onClick={() => {
@@ -362,8 +362,8 @@ export default function RoomPage({
         WheelSpinnerSync
       </h1>
 
-      <div className="flex md:flex-col lg:flex-row gap-x-8">
-        <div className="basis-0 md:grow">
+      <div className="flex flex-col lg:flex-row gap-x-8">
+        <div className="basis-0 grow">
           <div className="text-white rounded-md border border-slate-950 flex flex-col box-border overflow-hidden mb-5">
             <h1 className="bg-gray-600 px-4 py-[10px] text-2xl border-b border-slate-950 text-center font-bold">
               {roomName ? roomName : ""}
@@ -382,7 +382,7 @@ export default function RoomPage({
           </div>
         </div>
 
-        <div className="basis-0 md:grow lg:grow-[2]">
+        <div className="basis-0 grow lg:grow-[2]">
           <ContentBox title="Wheel Items">
             <div className="flex flex-col gap-1 w-full text-sm font-bold">
               <div className="rounded grid grid-cols-4 px-2 w-full content-evenly">

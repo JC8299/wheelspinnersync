@@ -219,13 +219,13 @@ export default function HomePage({
   }
 
   return (
-    <div className="flex flex-col md:w-[750px] lg:w-[970px] xl:w-[1170px]">
+    <div className="flex flex-col w-[750px] lg:w-[970px] xl:w-[1170px]">
       <h1 className="text-white text-4xl font-medium mt-5 mb-3 select-none">
         WheelSpinnerSync
       </h1>
 
-      <div className="flex md:flex-col lg:flex-row gap-x-8">
-        <div className="basis-0 md:grow lg:grow-[7]">
+      <div className="flex flex-col lg:flex-row gap-x-8">
+        <div className="basis-0 grow lg:grow-[7]">
           <ContentBox title="Rooms">
             <div className="w-full text-left text-sm select-none">
               <div className="grid grid-cols-6">
