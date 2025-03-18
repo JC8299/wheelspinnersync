@@ -2,7 +2,7 @@
 
 Wheel Spinner Sync is a web application that allows users to edit a wheel of choices together and syncs the spins between the users.
 
-Live Demo here: [Wheel Spinner Sync]("https://github.com/jc8299/wheelspinnersync")
+Live Demo here: [Wheel Spinner Sync]("https://jc8299.github.io/wheelspinnersync/")
 
 <p align="center">
   <img src="./public/images/wheelspin.gif" alt="Wheel Spinning">
